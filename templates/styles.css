@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.blog-post {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.blog-post:hover {
+    transform: scale(1.02);
+}
+
+.blog-post h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #444;
+}
+
+.blog-post p:first-of-type {
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-post p:last-of-type {
+    font-size: 16px;
+    line-height: 1.6;
+}
