@@ -1,0 +1,11 @@
+Flask
+Flask-WTF
+WTForms
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-Bcrypt
+Flask-Login
+Werkzeug
+Pillow
+python-dotenv
+mysql-connector-python
